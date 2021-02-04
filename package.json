@@ -1,31 +1,30 @@
 {
-  "name": "bries-tech-blog",
+  "name": "techy-blog-",
   "version": "1.0.0",
-  "description": "An application for people to post content on",
-  "main": "index.js",
+  "description": "An application that is for posting conetent ie a blog",
+  "main": "server.js",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "connect-session-sequelize": "^7.1.0",
     "dotenv": "^8.2.0",
-    "express-handlebars": "^5.2.0",
     "express-session": "^1.17.1",
+    "express-handlebars": "^5.2.0",
     "mysql2": "^2.2.5",
     "sequelize": "^6.5.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "test",
-    "seeds": "node seeds/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BrieBencich/bries-tech-blog.git"
+    "url": "git+https://github.com/BrieBencich/techy-blog-.git"
   },
   "author": "Brie Bencich",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BrieBencich/bries-tech-blog/issues"
+    "url": "https://github.com/BrieBencich/techy-blog-/issues"
   },
-  "homepage": "https://github.com/BrieBencich/bries-tech-blog#readme"
+  "homepage": "https://github.com/BrieBencich/techy-blog-#readme"
 }
